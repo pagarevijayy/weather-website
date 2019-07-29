@@ -14,7 +14,7 @@ weatherForm.addEventListener('submit', (e) => {
                 msg1.textContent = data.error
                 // console.log(data.error);
             } else {
-                msg2.textContent = `location: ${data.location} <br> temp: ${data.temperature} <br> summary: ${data.summary}`
+                msg2.textContent = `location: ${data.location}      Temp: ${data.temperature}       Summary: ${data.summary}`
                 console.log(data);
             }
         })
